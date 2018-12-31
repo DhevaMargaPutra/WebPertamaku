@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+    <title>Dheva's Web</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-family: 'Viga', sans-serif;
+        color: #0066ff;
+      }
+      h2 {
+        font-family: 'Viga', sans-serif;
+        color: #0066ff;
+      }
+      p {
+        font-family: sans-serif;
+      }
+      footer {
+        background-color: #0066ff;
+        color: white;
+        font-size: 12px;
+        text-align: right;
+        animation-name: foot;
+        animation-duration: 500ms;
+        font-family: sans-serif;
+        padding: 3px 6px 3px;
+      }
+      @keyframes foot {
+        0% {
+          transform: scaleY(0);
+        }
+        100% {
+          transform: scaleY(1);
+        }
+      }
+      .nav-bar {
+        //height: 50px;
+        background-color: #0066ff;
+        text-align: center;
+        padding: 0.5em;
+      }
+      .button-nav {
+        padding: inherit;
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+      }
+      .button-nav:hover {
+        background-color: white;
+        color: #0066ff;
+        font-weight: bold;
+      }
+      .mycard {
+        height: fit-content;
+        width: 200px;
+        margin: auto;
+        margin-bottom: 20px;
+        box-shadow: 0 5px 10px;
+      }
+      .card-item1 {
+        width: inherit;
+        background-color: #0066ff;
+        text-align: center;
+        padding: 16px 0 16px 0;
+        font-family: sans-serif;
+        color: white;
+      }
+      .card-item2 {
+        width: inherit;
+        background-color: #80b3ff;
+        text-align: center;
+        padding: 16px 0 16px 0;
+        font-family: sans-serif;
+        color: white;
+      }
+      .card-item1:hover {
+        animation-name: button-scale;
+        animation-duration: 250ms;
+        animation-fill-mode: forwards;
+      }
+      .card-item2:hover {
+        animation-name: button-scale;
+        animation-duration: 250ms;
+        animation-fill-mode: forwards;
+      }
+      .button-item {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      @keyframes button-scale {
+        100% {
+          transform: scale(1.1);
+        }
+      }
+      #tugas-button {
+        background-color: white;
+        color: #0066ff;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>Dheva's Web</h1>
+    </div>
+    <div class="nav-bar">
+      <a class="button-nav" href="Index.html">HOME</a>
+      <a class="button-nav" href="Tugas.html" id="tugas-button">TUGAS</a>
+      <a class="button-nav" href="Profile.html">PROFIL</a>
+    </div>
+    <div>
+      <h2>Tugas</h2>
+      <div class="mycard">
+        <div class="card-item1"><a class="button-item" href="#">Tugas 1</a></div>
+        <div class="card-item2"><a class="button-item" href="#">Tugas 2</a></div>
+        <div class="card-item1"><a class="button-item" href="#">Tugas 3</a></div>
+        <div class="card-item2"><a class="button-item" href="tugas4.html">Tugas 4</a></div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    Alhamdulillah. by: Dheva Marga Putra
+  </footer>
+</html>
